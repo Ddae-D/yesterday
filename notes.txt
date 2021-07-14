@@ -1,0 +1,9 @@
+access to send mail from your acccount
+
+https://myaccount.google.com/security?utm_source=OGB&utm_medium=act#signin
+able to access of apps low secures
+
+You need the next libraries to make use of pyautogui
+pip install pyscreeze
+pip install pymsgbox
+pip install pytweening
