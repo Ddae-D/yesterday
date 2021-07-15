@@ -28,7 +28,7 @@ def voiceToCommand():
     try:
         query = command.recognize_google(audio,language="es-ES").lower()
         print(query)
-    except Exception as e:
+    except Exception: #esta bien retroceder en modulos y verificar el error que da en el audio
         superior("Señor, no reconozco la instrucción")
         return None        
     return query
