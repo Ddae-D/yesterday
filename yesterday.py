@@ -30,7 +30,7 @@ def voiceToCommand():
         print(query)
     except Exception as e:
         superior("Señor, no reconozco la instrucción")
-        return 'none'        
+        return None        
     return query
     
 def wellcome ():
